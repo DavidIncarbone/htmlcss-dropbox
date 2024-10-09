@@ -55,9 +55,19 @@ img {
 .bt-blue {
 
     background-color: var(--color-bg-bt-blue);
-    padding: 5px 15px;
+    padding: 15px 15px;
     color: var(--color-bg-white);
     font-size: 1em;
+}
+
+.bt-white {
+
+    background-color: var(--color-bg-white);
+    padding: 15px 15px;
+    color: var(--color-bg-black);
+    font-size: 1em;
+    border: 1px solid var(--color-bg-black);
+
 }
 
 /* color bg and txt */
@@ -128,6 +138,7 @@ img {
 }
 
 /* spacer */
+
 .mg-top-bot {
 
     margin: 50px 0;
@@ -151,12 +162,23 @@ img {
     margin-left: 15px;
 }
 
+.p-30 {
+
+    padding: 30px;
+}
 
 
 .pd-top-bot {
 
     padding: 15px 0;
 }
+
+.pd-top {
+
+    padding-top: 15px;
+}
+
+
 
 .pd-top-30 {
 
@@ -235,6 +257,14 @@ nav a {
     padding: 0px 15px;
     font-size: 0.7em;
 
+}
+
+.bt-nav {
+
+    background-color: var(--color-bg-bt-blue);
+    padding: 5px 15px;
+    color: var(--color-bg-white);
+    font-size: 1em;
 }
 
 /* jumbo */
@@ -391,6 +421,48 @@ div.plans-highlights li {
 .check {
 
     color: var(--color-bg-bt-blue);
+}
+
+/* enterprise */
+
+
+
+.enterprise-title,
+.enterprise-content {
+
+    border: 2px solid var(--color-bg-box-lightgrey);
+
+}
+
+.p-enterprise {
+
+    padding-top: 65px;
+
+}
+
+div.enterprise-content a,
+div.customer-content a {
+
+    text-decoration: none;
+
+}
+
+/* customer */
+
+div.single-customer {
+
+    padding-top: 160px;
+
+
+
+
+}
+
+div.bt-white {
+
+    display: inline-block;
+    margin-top: 40px;
+
 }
 
 
