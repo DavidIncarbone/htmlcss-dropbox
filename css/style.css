@@ -44,6 +44,8 @@ body {
 }
 
 
+
+
 img {
 
     width: 100%;
@@ -80,6 +82,12 @@ img {
     font-variant: var(--color-bg-black);
 }
 
+.txt-lightgrey {
+
+    color: gray;
+    font-size: 1em;
+}
+
 /* flex utilities */
 
 .d-flex {
@@ -90,6 +98,13 @@ img {
 .sp-between {
 
     justify-content: space-between;
+}
+
+
+
+.flex-direction {
+
+    flex-direction: row;
 }
 
 .wrap {
@@ -107,13 +122,62 @@ img {
     justify-content: flex-end;
 }
 
+.gap {
+
+    gap: 30px
+}
+
 /* spacer */
+.mg-top-bot {
+
+    margin: 50px 0;
+}
+
 
 .mg-top {
 
     margin-top: 15px;
 
+}
 
+.mg-left-right {
+
+    margin: 0 15px 0 15px;
+}
+
+
+.mg-left {
+
+    margin-left: 15px;
+}
+
+
+
+.pd-top-bot {
+
+    padding: 15px 0;
+}
+
+.pd-top-30 {
+
+    padding-top: 30px
+}
+
+.pd-bot {
+
+    padding-bottom: 15px;
+}
+
+
+
+.pd-left-right {
+
+    padding: 0 15px 0 15px;
+}
+
+.pd-left {
+
+    padding-left: 15px;
 }
 
 
@@ -127,6 +191,13 @@ img {
 .w-70 {
 
     width: 70%;
+}
+
+/* other utilitiers */
+
+.txt-center {
+
+    text-align: center;
 }
 
 
@@ -229,7 +300,6 @@ h1 {
 
 .container-small {
 
-
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -237,19 +307,114 @@ h1 {
 #plans {
 
     padding-top: 130px;
+    position: relative;
 }
 
 
 
-div#partners>div {
+.choice {
 
-    width: calc(100% / 3);
+
+    padding: 15px 0;
+    border: 1px solid var(--color-bg-box-lightgrey);
+}
+
+
+
+div#plans h2 {
+
+    font-size: 2.5em;
+}
+
+.choice-positioning {
+
+    padding: 15px 0;
+    border: 1px solid var(--color-bg-box-lightgrey);
+    width: calc((100% - 30px) / 3);
+
 
 }
 
-#plans {
 
-    /* margin-top: 100px; */
+div#plans h3 {
+
+    padding: 30px 0 15px 0;
+}
+
+.list-title {
+
+    width: 100%;
+}
+
+.plans-table {
+
+    padding: 15px;
+    border-top: 1px solid var(--color-bg-box-lightgrey);
+}
+
+.plans-type {
+
+    padding-left: 20px
+}
+
+ul.choice-plans li {
+
+    width: 100%;
+    display: block;
+    padding: 15px 0;
+}
+
+.bt-choice {
+
+    margin-top: 30px;
+
+}
+
+.plans-highlights {
+
+    border-bottom: 2px solid var(--color-bg-box-lightgrey);
+}
+
+
+
+div.plans-highlights h5 {
+
+    padding: 100px 0 30px 20px;
+    font-size: 1em;
+}
+
+div.plans-highlights li {
+
+    padding: 15px 0;
+}
+
+.check {
+
+    color: var(--color-bg-bt-blue);
+}
+
+
+
+
+
+
+
+
+
+
+/* partners */
+
+
+
+
+
+
+
+/* enterprise */
+
+.enterprise {
+
+    padding-top: 100px;
 }
 
 
