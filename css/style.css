@@ -1,0 +1,187 @@
+/* root */
+
+:root {
+    --color-bg-lightblue: #b4d0e7;
+    --color-bg-white: #ffffff;
+    --color-bg-black: #000000;
+    --color-bg-bt-blue: #0061ff;
+    --color-bg-box-light-green: #a2d39b;
+    --color-bg-box-purple: #61082b;
+    --color-bg-box-lightgrey: #f5f5f5;
+    --color-bg-box-brown: #d5001f;
+    --color-bg-box-lightblue: #0093ce;
+    --color-bg-box-red: #ff1c1c;
+    --color-bg-box-dark-blue: #0d2481;
+    --color-bg-box-yellow: #ffd830;
+}
+
+
+/* general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* temp */
+    border: 1px solid red;
+    /* temp */
+    list-style: none;
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--color-bg-white);
+    color: var(--color-bg-black);
+
+}
+
+
+
+
+
+img {
+
+    width: 100%;
+    display: block;
+}
+
+/* color bg and txt */
+
+.bg-lightblue {
+
+    background-color: var(--color-bg-lightblue);
+}
+
+.bg-bt-blue {
+
+    background-color: var(--color-bg-bt-blue);
+}
+
+.txt-white {
+
+    color: var(--color-bg-white);
+}
+
+/* flex utilities */
+
+.d-flex {
+
+    display: flex;
+}
+
+.sp-between {
+
+    justify-content: space-between;
+}
+
+.wrap {
+
+    flex-wrap: wrap;
+}
+
+.ai-center {
+
+    align-items: center;
+}
+
+.f-end {
+
+    justify-content: flex-end;
+}
+
+/* spacer */
+
+.p-20 {
+
+    padding: 20px;
+}
+
+/* size */
+
+.w-30 {
+
+    width: 30%;
+}
+
+.w-70 {
+
+    width: 70%;
+}
+
+
+/* header */
+
+header {
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    background-color: white;
+}
+
+.container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+#jumbotron {
+
+    padding-top: 100px;
+
+}
+
+
+/* main */
+
+.container-small {
+
+
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+div#partners>div {
+
+    width: calc(100% / 3);
+
+
+
+}
+
+#plans {
+
+    /* margin-top: 100px; */
+}
+
+
+
+/* footer */
+
+footer {
+
+    background-color: var(--color-bg-black);
+    color: white
+}
+
+footer a {
+
+    text-decoration: none;
+    color: var(--color-bg-white)
+}
