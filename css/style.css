@@ -23,7 +23,7 @@
     padding: 0;
     box-sizing: border-box;
     /* temp */
-    /* border: 1px solid red; */
+    border: 1px solid red;
     /* temp */
     list-style: none;
 
@@ -427,6 +427,12 @@ div.plans-highlights li {
 
 
 
+
+.enterprise {
+
+    padding-top: 100px;
+}
+
 .enterprise-title,
 .enterprise-content {
 
@@ -453,9 +459,6 @@ div.single-customer {
 
     padding-top: 160px;
 
-
-
-
 }
 
 div.bt-white {
@@ -466,31 +469,21 @@ div.bt-white {
 }
 
 
-
-
-
-
-
-
-
-
 /* partners */
+div.partners h2 {
 
-
-
-
-
-
-
-/* enterprise */
-
-.enterprise {
-
-    padding-top: 100px;
+    padding-top: 90px;
 }
 
 
 
+div.partners-content>div {
+
+    width: calc((100% - 60px) / 3);
+}
+
+
+div.partners-content p
 /* footer */
 
 footer {
