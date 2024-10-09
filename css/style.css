@@ -168,8 +168,23 @@ nav a {
 
 #jumbotron {
 
+    background-color: var(--color-bg-box-lightblue);
     padding-top: 100px;
 
+
+}
+
+#jumbotron .container {
+
+    position: relative;
+    top: 70px;
+}
+
+h1 {
+
+    font-size: 4em;
+    text-align: center;
+    padding: 50px 0px 50px;
 }
 
 
