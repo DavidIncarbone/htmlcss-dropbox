@@ -23,7 +23,7 @@
     padding: 0;
     box-sizing: border-box;
     /* temp */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* temp */
     list-style: none;
 
@@ -35,7 +35,6 @@ html {
 }
 
 
-
 body {
 
     font-family: "Open Sans", sans-serif;
@@ -45,13 +44,19 @@ body {
 }
 
 
-
-
-
 img {
 
     width: 100%;
     display: block;
+}
+
+.bt-blue {
+
+    background-color: var(--color-bg-bt-blue);
+    padding: 5px 15px;
+    color: var(--color-bg-white);
+
+
 }
 
 /* color bg and txt */
@@ -102,7 +107,7 @@ img {
 
 .p-20 {
 
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 /* size */
@@ -127,9 +132,31 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
-
     background-color: white;
 }
+
+nav {
+
+    padding: 0 15px;
+}
+
+#logo {
+
+    width: 100px;
+    height: 20px;
+}
+
+
+
+nav a {
+
+    text-decoration: none;
+    color: var(--color-bg-black);
+    padding: 0 5px;
+    font-size: 0.7em;
+
+}
+
 
 .container {
 
