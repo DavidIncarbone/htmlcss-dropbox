@@ -70,8 +70,10 @@ img {
     color: var(--color-bg-black);
     font-size: 1em;
     border: 1px solid var(--color-bg-black);
+    text-decoration: none;
 
 }
+
 
 /* color bg and txt */
 
@@ -588,12 +590,6 @@ div.brand {
 
 
 
-
-
-
-
-
-
 /* logos section */
 
 .customers-brand>div {
@@ -608,8 +604,38 @@ div.brand {
     width: 50%;
     height: 50%;
 
+}
+
+/* call-to-action */
+
+#call-to-action {
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#call-to-action h2 {
+
+    color: var(--color-bg-box-purple);
+    font-size: 2.2em;
+}
+
+#call-to-action a {
+
+    background-color: var(--color-bh-white);
+    padding: 5px 40px;
+    color: var(--color-bg-black);
+    font-size: 1em;
+    text-decoration: none;
 
 }
+
+.cta-title {
+
+    width: 50%;
+}
+
+
 
 
 
