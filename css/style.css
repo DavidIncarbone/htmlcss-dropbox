@@ -251,7 +251,7 @@ nav ul:last-child li:not(:last-child) a:hover {
 
 .padding-section {
 
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .mg-top-bot {
@@ -375,7 +375,7 @@ header {
     left: 0;
     z-index: 1000;
     background-color: white;
-    box-shadow: 1px solid var(--color-grey-soft);
+    box-shadow: 1px 2px var(--color-bg-box-lightgrey);
 }
 
 /* nav */
@@ -402,10 +402,6 @@ nav a {
 
 }
 
-nav a:not(8) {
-
-    color: var(--color-bg-black)
-}
 
 #bt-start {
 
@@ -423,7 +419,7 @@ nav a:not(8) {
 
 /* jumbo */
 
-.container {
+.iner {
 
     max-width: 1200px;
     margin: 0 auto;
@@ -790,7 +786,8 @@ a.brand>div {
 
 #FAQ {
 
-    padding: 80px 80px 0 0;
+    margin-bottom: 200px;
+    padding-right: 80px;
     height: 70vh;
 }
 
@@ -838,7 +835,7 @@ footer {
 
     background-color: var(--color-bg-black);
     color: white;
-    padding: 30px 0 0 0;
+    padding: 50px 0 0 0;
 
 }
 
