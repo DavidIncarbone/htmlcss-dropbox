@@ -21,7 +21,7 @@
 
     <header class="p-20 bg-white">
 
-        <nav class="d-flex sp-between">
+        <nav class="d-flex sp-between wrap">
             <ul class="d-flex ai-center">
                 <li>
                     <a href="index.html">
@@ -49,11 +49,8 @@
                 <li><a href="">Accedi</a>
                 </li>
                 <li>
-                    <a href="">
-                        <div class="bt-nav">Inizia
-
-
-                        </div>
+                    <a href="" id="bt-start" class="bt-blue">
+                        Inizia
                     </a>
                 </li>
             </ul>
@@ -68,9 +65,9 @@
 
 
         <section>
-            <div id="jumbotron">
+            <div id="jumbotron" class="d-flex wrap">
 
-                <div class="container">
+                <div class="container ">
 
                     <h1>
                         Tutto ciò che ti serve per il lavoro, in un unico posto
@@ -122,11 +119,13 @@
 
             <div id="plans" class="container-small">
 
-                <h2>Trova il piano business che fa per te</h2>
+                <div class="plans-your-choice">
+                    <h2>Trova il piano business che fa per te</h2>
 
 
-                <input class="mg-top-bot" type="radio">Fatturazione mensile
-                <input class="mg-left" type="radio">Fatturazione annuale
+                    <input class="mg-top-bot" type="radio">Fatturazione mensile
+                    <input class="mg-left" type="radio">Fatturazione annuale
+                </div>
 
                 <ul class="d-flex pd-left-right sp-between" id="plans-choice">
                     <li class="choice-positioning ">
@@ -273,8 +272,9 @@
 
                         </div>
                     </li>
+                </ul>
             </div>
-            </ul>
+
         </section>
 
         <!--enterprise -->
@@ -296,7 +296,7 @@
 
                         </h2>
                         <h3 class="pd-top">
-                            <b>Contatta l'ufficio vendite per i prezzi
+                            <b>Contatta l'ufficio vendite per i prezzi</b>
                         </h3>
 
                         </b>
@@ -328,23 +328,24 @@
                 <div><img src="img/partner.png" alt="partner"></div>
                 <div class="customer-content ">
                     <h3>Entra in contatto con partner Dropbox</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsum voluptatum ipsam
+                    <p class="pd-top">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsum voluptatum
+                        ipsam
                         provident
                         magnam iste aspernatur eum repellat vel eius excepturi facere dolorem, optio praesentium
                         minus
                         odit culpa possimus cumque!.</p>
-                    <div class="bt-white"><a href="">Trova un partner</a>
+                    <a href="" class="bt-white">Trova un partner</a>
 
-                    </div>
                 </div>
-
             </div>
+
+
 
         </section>
 
         <!-- partners -->
         <section>
-            <div class=" partners container-small ">
+            <div class=" partners container-small">
 
                 <h2 class="pd-top">Esegui più operazioni con Dropbox</h2>
 
@@ -411,17 +412,18 @@
                     </div>
 
                 </div>
+            </div>
 
-                <!-- info -->
+            <!-- info -->
 
-                <section>
-                    <div class="info container-small">
-                        <h2>
-                            <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
-                        </h2>
-                        <div class="pd-top-30"><a href="">scopri di più sui nostri clienti</a></div>
-                    </div>
-                </section>
+            <section>
+                <div class="info container-small">
+
+                    <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
+
+                    <div class="pd-top-30"><a href="">scopri di più sui nostri clienti</a></div>
+                </div>
+            </section>
 
 
         </section>
@@ -430,126 +432,120 @@
 
         <section>
 
-            <div class="business-features container-small">
+            <div class="business-features">
 
                 <div class="customers-text">
 
 
                 </div>
 
-                <section>
-
-                    <div class="customers-brand d-flex">
-                        <div class="d-flex wrap">
-                            <div class="brand bg-green">
-
-                                <img src="img/designit.svg" alt="">
 
 
-                            </div>
-                            <div class="brand bg-purple">
-                                <div>
+                <div class="customers-brand d-flex">
+                    <div class="d-flex wrap">
+                        <div class="brand bg-green">
 
-                                    <img src="img/arizona_state_university.svg" alt="">
-
-
-                                </div>
-                            </div>
-                            <div class="brand bg-box-lightblue">
-
-                                <div>
-
-                                    <img src="img/designit.svg" alt="">
+                            <img src="img/designit.svg" alt="">
 
 
-                                </div>
-                            </div>
-                            <div class="brand bg-red">
+                        </div>
+                        <div class="brand bg-purple">
+                            <div>
 
-                                <div>
-
-                                    <img src="img/designit.svg" alt="">
+                                <img src="img/arizona_state_university.svg" alt="">
 
 
-                                </div>
                             </div>
                         </div>
+                        <div class="brand bg-box-lightblue">
 
-                        <div class=" big-box-container bg-lightgrey">
-
-                            <div class="c-logo-container d-flex">
+                            <div>
 
                                 <img src="img/designit.svg" alt="">
 
 
                             </div>
+                        </div>
+                        <div class="brand bg-red">
 
-                            <div class=" special-border"></div>
-                            <div class="big-box-content">
+                            <div>
+
+                                <img src="img/designit.svg" alt="">
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" big-box-container bg-lightgrey">
+
+                        <div class="c-logo-container d-flex">
+
+                            <img src="img/designit.svg" alt="">
+
+
+                        </div>
+
+                        <div class=" special-border"></div>
+                        <div class="big-box-content">
+                            <div>
                                 <p class="pd-top-30">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio
                                     mollitia
                                     autem nihil iusto
                                     delectus labore, excepturi ex, magnam incidunt, dicta vero cumque reiciendis nam
                                     laudantium
                                     quos eos dolor iste voluptates!</p>
+                            </div>
 
-                                <div class="pd-top-30">
+                            <div class="pd-top-30">
 
-                                    Morten Thomsen, Global IT Lead
-                                </div>
+                                Morten Thomsen, Global IT Lead
                             </div>
                         </div>
+                    </div>
 
-                        <div class="d-flex wrap">
-                            <div class="brand bg-brown">
+                    <div class="d-flex wrap">
+                        <div class="brand bg-brown">
 
-                                <div>
+                            <div>
 
-                                    <img src="img/designit.svg" alt="">
-
-
-                                </div>
-                            </div>
-                            <div class="brand bg-lightblue">
-
-                                <div>
-
-                                    <img src="img/designit.svg" alt="">
+                                <img src="img/designit.svg" alt="">
 
 
-                                </div>
-                            </div>
-                            <div class="brand bg-dark-blue">
-
-                                <div>
-
-                                    <img src="img/designit.svg" alt="">
-
-
-                                </div>
-                            </div>
-                            <div class="brand bg-yellow">
-
-                                <div>
-
-                                    <img src="img/designit.svg" alt="">
-
-
-                                </div>
                             </div>
                         </div>
+                        <div class="brand bg-lightblue">
+
+                            <div>
+
+                                <img src="img/designit.svg" alt="">
 
 
+                            </div>
+                        </div>
+                        <div class="brand bg-dark-blue">
 
+                            <div>
+
+                                <img src="img/designit.svg" alt="">
+
+
+                            </div>
+                        </div>
+                        <div class="brand bg-yellow">
+
+                            <div>
+
+                                <img src="img/designit.svg" alt="">
+
+
+                            </div>
+                        </div>
                     </div>
 
 
 
-
-
-
-
-
+                </div>
 
             </div>
 
@@ -567,11 +563,11 @@
 
             <div id="call-to-action" class=" bg-lightblue">
 
-                <div class="call-to-action container-small d-flex sp-between">
+                <div class="call-to-action container-small d-flex sp-between wrap">
 
                     <div class="cta-title">
 
-                        <h2>Porta Dropbox Business nella tua azienda</h3>
+                        <h2>Porta Dropbox Business nella tua azienda</h2>
 
                     </div>
                     <div class="cta-button"><a href="">Inizia la tua prova gratuita</a></div>
@@ -579,88 +575,125 @@
                 </div>
             </div>
 
+        </section>
+
+        <!-- FAQ -->
 
 
 
-            <section>
 
-                <div id="FAQ" class="container-small">
-                    <h2>Domande frequenti</h2>
+        <section>
 
-                    <ul>
-                        <li><b>quest</b> <i class="fa-solid fa-caret-down"></i></li>
-                        <li><b>quest</b> <i class="fa-solid fa-caret-down"></i></li>
-                        <li><b>quest</b> <i class="fa-solid fa-caret-down"></i></li>
-                    </ul>
+            <div id="FAQ" class="container-small">
+                <h2>Domande frequenti</h2>
 
-                </div>
+                <ul>
+                    <li><b>quest</b> <i class="fa-solid fa-caret-down"></i>
 
-            </section>
+                        <p class="pd-top">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ea dolorum,
+                            vel consequatur
+                            unde sit voluptates illo! Excepturi, vero nihil.</p>
+                    </li>
+
+                    <li><b>quest</b> <i class="fa-solid fa-caret-down"></i>
+
+                        <p class="pd-top">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ea dolorum,
+                            vel consequatur
+                            unde sit voluptates illo! Excepturi, vero nihil.</p>
+
+                    </li>
+                    <li><b>quest</b> <i class="fa-solid fa-caret-down"></i>
+
+                        <p class="pd-top">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ea dolorum,
+                            vel consequatur
+                            unde sit voluptates illo! Excepturi, vero nihil.</p>
+
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
 
 
 
     </main>
 
+    <!-- footer -->
+
     <footer>
 
-        <div class="container">footer
+        <div class="container">
 
-            <div class="top-footer d-flex sp-between">
+            <div class="top-footer d-flex sp-between wrap">
 
                 <ul>
-                    <li><a href="">1</a></li>
-                    <li><a href="">2</a></li>
-                    <li><a href="">3</a></li>
-                    <li><a href="">4</a></li>
-                    <li><a href="">5</a></li>
-                    <li><a href="">6</a></li>
+                    <li>
+                        <h3>Dropbox</h3>
+                    </li>
+                    <li><a href="">Applicazioni Desktop</a></li>
+                    <li><a href="">Perchè Dropbox</a></li>
+                    <li><a href="">Piani</a></li>
+                    <li><a href="">Sicurezza</a></li>
+                    <li><a href="">Funzioni</a></li>
+                    <div class="special-border"></div>
                 </ul>
                 <ul>
-                    <li><a href="">1</a></li>
-                    <li><a href="">2</a></li>
-                    <li><a href="">3</a></li>
-                    <li><a href="">4</a></li>
-                    <li><a href="">5</a></li>
-                    <li><a href="">6</a></li>
+                    <li>
+                        <h3>Prodotti</h3>
+                    </li>
+                    <li><a href="">Applicazioni Desktop</a></li>
+                    <li><a href="">Perchè Dropbox</a></li>
+                    <li><a href="">Piani</a></li>
+                    <li><a href="">Sicurezza</a></li>
+                    <li><a href="">Funzioni</a></li>
                 </ul>
                 <ul>
-                    <li><a href="">1</a></li>
-                    <li><a href="">2</a></li>
-                    <li><a href="">3</a></li>
-                    <li><a href="">4</a></li>
-                    <li><a href="">5</a></li>
-                    <li><a href="">6</a></li>
+                    <li>
+                        <h3>Azienda</h3>
+                    </li>
+                    <li><a href="">Applicazioni Desktop</a></li>
+                    <li><a href="">Perchè Dropbox</a></li>
+                    <li><a href="">Piani</a></li>
+                    <li><a href="">Sicurezza</a></li>
+                    <li><a href="">Funzioni</a></li>
                 </ul>
                 <ul>
-                    <li><a href="">1</a></li>
-                    <li><a href="">2</a></li>
-                    <li><a href="">3</a></li>
-                    <li><a href="">4</a></li>
-                    <li><a href="">5</a></li>
-                    <li><a href="">6</a></li>
+                    <li>
+                        <h3>Supporto</h3>
+                    </li>
+                    <li><a href="">Applicazioni Desktop</a></li>
+                    <li><a href="">Perchè Dropbox</a></li>
+                    <li><a href="">Piani</a></li>
+                    <li><a href="">Sicurezza</a></li>
+                    <li><a href="">Funzioni</a></li>
                 </ul>
                 <ul>
-                    <li><a href="">1</a></li>
-                    <li><a href="">2</a></li>
-                    <li><a href="">3</a></li>
-                    <li><a href="">4</a></li>
-                    <li><a href="">5</a></li>
-                    <li><a href="">6</a></li>
+                    <li>
+                        <h3>Community</h3>
+                    </li>
+                    <li><a href="">Applicazioni Desktop</a></li>
+                    <li><a href="">Perchè Dropbox</a></li>
+                    <li><a href="">Piani</a></li>
+                    <li><a href="">Sicurezza</a></li>
+                    <li><a href="">Funzioni</a></li>
+
                 </ul>
-
-
-
-
-
-
             </div>
 
-            <div class="bot-footer">
+
+
+            <div><span><i class="fa-solid fa-earth-americas"></i></span>
+
+
 
                 <select name="lang" id="lang">
 
                     <option value="italiano">
                         Italiano
+                    </option>
+                    <option value="Inglese">
+                        Inglese
                     </option>
 
 

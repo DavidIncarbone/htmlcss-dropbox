@@ -13,6 +13,7 @@
     --color-bg-box-red: #ff1c1c;
     --color-bg-box-dark-blue: #0d2481;
     --color-bg-box-yellow: #ffd830;
+    --color-grey-soft: #566d7d;
 
 }
 
@@ -72,6 +73,18 @@ img {
     border: 1px solid var(--color-bg-black);
     text-decoration: none;
 
+}
+
+a {
+
+    display: block;
+}
+
+hr {
+
+    width: 50px;
+    color: var(--color-bg-box-lightgrey);
+    margin: 25px 0;
 }
 
 
@@ -136,7 +149,7 @@ img {
 
 .txt-black {
 
-    font-variant: var(--color-bg-black);
+    color: var(--color-bg-black);
 }
 
 .txt-lightgrey {
@@ -306,7 +319,7 @@ header {
 
 nav {
 
-    padding: 0 15px;
+    padding: 15px 15px;
 }
 
 #logo {
@@ -326,13 +339,24 @@ nav a {
 
 }
 
-.bt-nav {
+nav a:not(8) {
+
+    color: var(--color-bg-black)
+}
+
+#bt-start {
 
     background-color: var(--color-bg-bt-blue);
-    padding: 5px 15px;
+    padding: 5px 5px;
     color: var(--color-bg-white);
-    font-size: 1em;
+    font-size: 0.7em;
+    color: white;
 }
+
+
+
+
+/* main start*/
 
 /* jumbo */
 
@@ -347,7 +371,7 @@ nav a {
 #jumbotron {
 
     background-color: var(--color-bg-box-lightblue);
-    padding-top: 60x;
+    padding-top: 60px;
 
 
 }
@@ -381,17 +405,28 @@ h1 {
     padding-top: 30px
 }
 
+.jumbo-content {
+
+    position: relative;
+}
+
 #arrow-down {
 
-    font-size: 2.5em;
+    font-size: 2.3em;
     color: var(--color-bg-black);
+    position: absolute;
+    top: 330px;
+    left: 0;
+
+
+
 }
 
 
 
 
 
-/* main start*/
+
 
 
 
@@ -408,6 +443,8 @@ h1 {
     padding-top: 130px;
     position: relative;
 }
+
+.plans-your-choice {}
 
 
 
@@ -532,10 +569,12 @@ div.single-customer {
 
 }
 
-div.bt-white {
+.bt-white {
 
     display: inline-block;
     margin-top: 40px;
+    color: var(--color-bg-black);
+
 
 }
 
@@ -593,14 +632,23 @@ div.brand {
 
 }
 
+.big-box-content {
+
+    height: 20vw;
+
+    overflow-Y: scroll;
+    overflow-y: auto;
 
 
-/* logos section */
+}
+
+
+
 
 .customers-brand>div {
 
     width: calc(100% / 3);
-    height: calc(100vw / 4);
+    height: calc(100vw / 3);
 
 }
 
@@ -674,17 +722,21 @@ div.brand {
     padding: 0 0px 80px 0px;
 }
 
+#FAQ li:hover p {
+
+    display: block;
+}
+
+#FAQ p {
+
+    display: none;
+}
+
 #FAQ i {
 
     position: absolute;
-
     left: 850px;
 }
-
-
-
-
-
 
 
 
@@ -698,8 +750,31 @@ footer {
 
 }
 
+footer h3 {
+
+    padding-bottom: 25px;
+}
+
 footer a {
 
     text-decoration: none;
-    color: var(--color-bg-white)
+    color: var(--color-bg-white);
+    display: block;
+    padding: 5px 0;
+}
+
+footer div.special-border {
+
+    width: 100%;
+    margin: 80px 0 30px 0;
+    border: 1px solid var(--color-bg-box-lightgrey);
+}
+
+footer select {
+
+    background-color: var(--color-bg-black);
+    color: var(--color-grey-soft);
+    margin: 0px 0 25px 5px;
+    border: none;
+
 }
