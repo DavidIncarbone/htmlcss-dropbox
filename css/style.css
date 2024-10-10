@@ -113,16 +113,17 @@ hr {
 
 nav ul:first-child li:not(:first-child) a:hover {
 
-    margin: 0 0 1px 0;
-    color: var(--color-bg-black);
-    size: 2px;
+
+    border-bottom: 1px solid var(--color-bg-black);
+
+
 }
 
 nav ul:last-child li:not(:last-child) a:hover {
 
-    margin: 0 0 1px 0;
-    color: var(--color-bg-black);
-    size: 2px;
+
+    border-bottom: 1px solid var(--color-bg-black);
+
 }
 
 
@@ -681,23 +682,25 @@ div.partners-content>div {
 
 
 
-div.brand {
+a.brand {
 
     display: flex;
     align-items: center;
     padding: 0 40px;
 }
 
-div.brand>div {
+a.brand>div {
 
     filter: invert();
 
 
 }
 
-.border-ghost {
+.brand:hover {
 
-    border: 5px solid rgba(black, black, black, 0.5);
+    border: 25px solid rgba(255, 255, 255, 0.3);
+
+
 }
 
 .logo-container {
