@@ -224,6 +224,11 @@ img {
     padding: 15px 0;
 }
 
+.pd-top-bot-30 {
+
+    padding: 30px 0;
+}
+
 .pd-top {
 
     padding-top: 15px;
@@ -635,6 +640,39 @@ div.brand {
     width: 50%;
 }
 
+/* FAQ */
+
+#FAQ {
+
+    padding: 80px 80px 0 0;
+}
+
+#FAQ h2 {
+
+    padding: 0 0 50px 0;
+    border-bottom: 2px solid var(--color-bg-box-lightgrey);
+}
+
+#FAQ li {
+
+    padding: 30px 0;
+    border-bottom: 2px solid var(--color-bg-box-lightgrey);
+    position: relative;
+
+}
+
+#FAQ ul {
+
+    padding: 0 0px 80px 0px;
+}
+
+#FAQ i {
+
+    position: absolute;
+
+    left: 850px;
+}
+
 
 
 
@@ -647,7 +685,9 @@ div.brand {
 footer {
 
     background-color: var(--color-bg-black);
-    color: white
+    color: white;
+    padding: 50px 0 0 0;
+
 }
 
 footer a {
