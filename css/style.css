@@ -791,7 +791,7 @@ a.brand>div {
 #FAQ {
 
     padding: 80px 80px 0 0;
-    height: 120vh;
+    height: 70vh;
 }
 
 #FAQ h2 {
@@ -838,11 +838,11 @@ footer {
 
     background-color: var(--color-bg-black);
     color: white;
-    padding: 50px 0 0 0;
+    padding: 30px 0 0 0;
 
 }
 
-footer h3 {
+h3 {
 
     padding-bottom: 25px;
 }
