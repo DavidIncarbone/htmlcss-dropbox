@@ -257,7 +257,7 @@ nav ul:last-child li:not(:last-child) a:hover {
 
 .gap {
 
-    gap: 0px 30px;
+    gap: 30px 30px;
 }
 
 .shrink {
@@ -633,10 +633,6 @@ div.plans-highlights li {
 
 
 
-.enterprise {
-
-    padding-top: 100px;
-}
 
 .enterprise-title,
 .enterprise-content {
@@ -712,7 +708,7 @@ div.partners-content>div {
 
 .business-features {
 
-    padding-top: 80px;
+    /* padding-top: 80px; */
 }
 
 
@@ -825,14 +821,14 @@ a.brand>div {
 
 #FAQ {
 
-    margin-bottom: 200px;
+    padding-bottom: 320px;
     padding-right: 80px;
     height: 70vh;
 }
 
 #FAQ h2 {
 
-    padding: 0 0 50px 0;
+    padding: 0 0 px 0;
     border-bottom: 2px solid var(--color-bg-box-lightgrey);
 }
 
@@ -875,6 +871,7 @@ footer {
     background-color: var(--color-bg-black);
     color: white;
     padding: 50px 0 0 0;
+    margin-top: 200px;
 
 }
 
