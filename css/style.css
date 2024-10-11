@@ -532,7 +532,7 @@ h1 {
 
 #plans {
 
-    padding-top: 130px;
+
     position: relative;
 }
 
@@ -630,6 +630,11 @@ div.plans-highlights li {
 
 /* enterprise */
 
+.enterprise {
+
+    padding-top: 50px;
+}
+
 
 
 
@@ -708,7 +713,7 @@ div.partners-content>div {
 
 .business-features {
 
-    /* padding-top: 80px; */
+    padding-top: 100px;
 }
 
 
@@ -821,8 +826,7 @@ a.brand>div {
 
 #FAQ {
 
-    padding-bottom: 320px;
-    padding-right: 80px;
+    padding: 100px 80px 250px 0;
     height: 70vh;
 }
 
